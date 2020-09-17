@@ -19,11 +19,9 @@ public class vetorEx2Idade {
         }
 
         for (i = 0; i < 3; i++) {
-            if (idade[i] > 18) {
-                System.out.printf("Nome: %s  \n", nome[i]);
-                System.out.printf("Idade: %d \n", idade[i]);
-            }
 
+            System.out.printf("Nome: %s  \n", nome[i]);
+            System.out.printf("Idade: %d \n", idade[i]);
         }
     }
 }
